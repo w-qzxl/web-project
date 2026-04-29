@@ -1,0 +1,172 @@
+body {
+  color: #d4af37;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.85)),
+    url("TheBacground.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+body::selection {
+  background-color: #d4af37;
+  color: #000;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+header h1 {
+  font-size: 28px;
+  color: #d4af37;
+  text-shadow: 0 0 10px rgba(212, 175, 55, 0.6);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+nav a:hover {
+  color: #d4af37;
+}
+
+.film-container {
+    display: flex;          
+    align-items: center;     
+    margin-left: 5px;    
+    margin-top: 5px;       
+    
+}
+
+.film-poster {
+     margin-left: 110px;  
+     margin-top: 70px;     
+    width:  auto;          
+    height: 600px;
+    border: 2px solid rgba(255, 215, 0, 0.5); 
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.film-poster:hover {
+
+    transform: scale(1.07);
+
+}
+
+
+.film-title {
+    margin-left: 70px;  
+   margin-bottom: 20px;      
+    color: rgba(244, 208, 3, 0.811);   
+    font-family: sans-serif;
+    font-size: 3.5rem;  
+    letter-spacing: 5px;
+}
+
+body::selection {
+    background-color: #c0c0c0; 
+    color: #1a1a1a;           
+}
+
+.DetailsIcons {
+     display: flex;          
+    align-items: center;     
+}
+
+.small-icon {
+    width: 70px;
+    height: 70px;
+    object-fit: contain; 
+    vertical-align: middle; 
+    margin-left: 70px;
+    border: 2px solid rgba(255, 215, 0, 0.5); 
+    border-radius: 10px;
+    margin-bottom: 20px; 
+}
+
+.film-DetailsTitle {
+    font-size: 1.2rem;  
+    letter-spacing: 5px;
+     color: rgba(244, 208, 3, 0.811);   
+    font-family: sans-serif;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+
+.film-summaryText{
+    color: rgba(244, 208, 3, 0.811);   
+    font-size: 1.5rem;  
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.larg-icon {
+    width: 90px;
+    height: 90px;
+    object-fit: contain; 
+    vertical-align: middle; 
+    margin-left: 90px;
+    margin-right: 90px;
+    border: 2px solid rgba(255, 215, 0, 0.5); 
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.larg-icon:hover {
+    cursor: pointer;
+}
+
+.Actors-icons {
+   width: 120px;
+    height: 120px;
+    object-fit: contain; 
+    vertical-align: middle; 
+    margin-left: 200px;
+    margin-right: 30px;
+    margin-top: 50px;
+    border: 2px solid rgba(255, 215, 0, 0.5); 
+    border-radius: 10px;
+}
+
+.rating {
+direction: ltr;
+margin-left: 70px;
+}
+
+.rating input {
+display: none;
+}
+
+.rating label {
+font-size: 35px;
+color: gray;
+cursor: pointer;
+transition: 0.3s;
+}
+
+.rating label:hover,
+.rating label:hover ~ label {
+color: gold;
+}
+
+.rating input:checked ~ label {
+color: gold;
+}
+
+.retingNumber{
+    color: rgba(244, 208, 3, 0.811);   
+
+}
+
